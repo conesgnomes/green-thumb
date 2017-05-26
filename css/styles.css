@@ -34,7 +34,7 @@ body {
   float: left;
 }
 
-span {
+.header > span {
   display: inline-block;
   position: relative;
   border-radius: 50%;
@@ -47,7 +47,7 @@ span {
   z-index: 1;
 }
 
-span:hover {
+.header > span:hover {
   cursor: pointer;
 }
 
@@ -101,7 +101,7 @@ span:hover {
 }
 
 .quote > p {
-  text-indent: -15px;
+  text-indent: -45px;
   letter-spacing: .2em;
 }
 
@@ -111,7 +111,7 @@ span:hover {
   font-size: 12em;
   opacity: .4;
   position: absolute;
-  top: -190px;
+  top: -210px;
   left: -30px;
 }
 
@@ -124,7 +124,7 @@ span:hover {
   position: absolute;
   width: 30%;
   right: 0;
-  top: -100px;
+  top: -150px;
 }
 
 h3 {
@@ -147,7 +147,29 @@ ul {
 table {
   font-size: 1.1em;
   border-collapse: collapse;
-  margin: 5% 0 0 15%;
+  margin: 5% 0 0 10%;
+  width: 25%;
+  float: left;
+}
+
+.order:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.order > span {
+  float: left;
+  margin-top: 14%;
+  margin-left: 5%;
+  border: solid black 2px;;
+  padding: 10px;
+}
+
+.order > span:hover {
+  background-color: black:
+  color: white:
+  cursor: pointer;
 }
 
 th, td {
@@ -178,23 +200,24 @@ tr > td:nth-child(2), tr > th:nth-child(2)  {
   padding-left: 2%;
 }
 
-.similar-products {
-  position: absolute;
-  right: 0;
-  bottom: 60px;
-}
-
-.similar-products p {
+.products p {
   text-align: right;
-  margin: 1% 2%;
+  padding: 0 2% 1% 0;
 }
 
-.similar-products img {
+.products img {
   width: 8%;
   float: right;
-  margin-right: 2%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  padding: 1%;
 }
 
-.similar-products img:hover {
+.products img:nth-child(1) {
+  margin: 0 2%;
+}
+
+.products img:hover {
   cursor: pointer;
+  border: solid black 2px;
 }
