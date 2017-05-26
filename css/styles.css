@@ -34,7 +34,7 @@ body {
   float: left;
 }
 
-.header > span {
+span {
   display: inline-block;
   position: relative;
   border-radius: 50%;
@@ -44,6 +44,11 @@ body {
   margin-left: 50%;
   margin-top: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+span:hover {
+  cursor: pointer;
 }
 
 #brand {
@@ -89,14 +94,15 @@ body {
 .quote {
   position: absolute;
   color: white;
-  left: 60%;
+  left: 55%;
   top: 65%;
-  font-size: 1em;
-  width: 300px;
+  width: 500px;
+  font-size: 1.7em;
 }
 
 .quote > p {
   text-indent: -15px;
+  letter-spacing: .2em;
 }
 
 .quote > p:before {
@@ -105,6 +111,90 @@ body {
   font-size: 12em;
   opacity: .4;
   position: absolute;
-  top: -130px;
+  top: -190px;
   left: -30px;
+}
+
+.planter {
+  position: relative;
+  height: 0;
+}
+
+#succulent-planter {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: -100px;
+}
+
+h3 {
+  margin: 3% 0 2% 5%;
+  font-size: 1.5em;
+  font-family: 'futura-bold';
+}
+
+.product-desc > p {
+  margin-left: 7%;
+  font-size: 1.1em;
+}
+
+ul {
+  margin-left: 7%;
+  list-style-type: none;
+  font-size: 1.1em;
+}
+
+table {
+  font-size: 1.1em;
+  border-collapse: collapse;
+  margin: 5% 0 0 15%;
+}
+
+th, td {
+  padding-right:20%;
+  padding-top: 3%;
+}
+
+th:last-child, td:last-child {
+  padding-right: 2%;
+}
+
+th {
+  text-align: left;
+}
+
+thead > tr {
+  border-bottom: solid black 2px;
+  font-family: 'futura-bold';
+}
+
+
+tr > td:first-of-type, tr > th:first-of-type {
+  font-family: 'futura-bold';
+  border-right: solid black 2px;
+}
+
+tr > td:nth-child(2), tr > th:nth-child(2)  {
+  padding-left: 2%;
+}
+
+.similar-products {
+  position: absolute;
+  right: 0;
+  bottom: 60px;
+}
+
+.similar-products p {
+  text-align: right;
+  margin: 1% 2%;
+}
+
+.similar-products img {
+  width: 8%;
+  float: right;
+  margin-right: 2%;
+}
+
+.similar-products img:hover {
+  cursor: pointer;
 }
