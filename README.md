@@ -11,13 +11,13 @@
 ## Screenshots of Application
 
 Top half of page
-![alt text] https://github.com/conesgnomes/green-thumb/blob/master/img/top-half.png
+![alt text](https://github.com/conesgnomes/green-thumb/blob/master/img/top-half.png)
 
 Bottom half of page
-![alt text]https://github.com/conesgnomes/green-thumb/blob/master/img/bottom-half.png
+![alt text](https://github.com/conesgnomes/green-thumb/blob/master/img/bottom-half.png)
 
 Mock up created in Sketch
-![alt text] https://github.com/conesgnomes/green-thumb/blob/master/img/sketch-mock-up.png
+![alt text](https://github.com/conesgnomes/green-thumb/blob/master/img/sketch-mock-up.png)
 
 ## Setup/Installation Requirements
 
